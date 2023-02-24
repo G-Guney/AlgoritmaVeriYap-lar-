@@ -1,0 +1,17 @@
+Merge Sort algoritması aşağıdaki adımları izler:
+
+Dizi ikiye bölünür:
+[16,21,11] [8,12,22]
+
+Her bir alt dizi yine ikiye bölünür:
+[16] [21,11] [8] [12,22]
+
+Tek elemanlı alt diziler, ikili alt dizilere birleştirilir:
+[16,11,21] [8,12,22]
+
+İkili alt diziler, dörtlü alt dizilere birleştirilir:
+[8,11,12,16,21,22]
+
+Bu, verilen dizinin sıralanmış hali olacaktır.
+
+O(n log n) zaman karmaşıklığına sahip olan Merge Sort, verilen dizinin boyutuna bağlı olarak logaritmik bir işlem yürüterek verimli bir şekilde sıralama yapar.
